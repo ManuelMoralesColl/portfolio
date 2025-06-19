@@ -32,6 +32,13 @@ function Home2() {
     <b className="blue">web applications</b> , experimenting with{" "}
     <b className="blue">AI technologies</b>, and exploring the limitless potential of decentralized systems.
   </i>
+  <br />
+  <br />
+   <b className="blue">Professional Experience: </b>
+  <br />
+  <b>I have been working at Arelance S.L., a technology consulting firm, contributing to a project for Konecta.  <br />
+    In this role, I have been involved in developing solutions using Spring Boot for the backend and JavaScript for the frontend.   <br />
+This experience has helped me strengthen my full-stack development skills and work effectively in agile, results-driven environments.</b>
 </p>
           </Col>
           <Col md={4} className="myAvtar">

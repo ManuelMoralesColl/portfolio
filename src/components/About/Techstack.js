@@ -3,17 +3,19 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
+
   DiPython,
   DiGit,
   DiJava,
+  
 } from "react-icons/di";
 import {
-  SiPostgresql,
-  SiPhp
+  SiMysql,
+  SiPhp,
+  SiSpringboot,
+  SiAngular,
+  SiLaravel
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -23,19 +25,22 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
@@ -46,6 +51,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
       </Col>
+      
     </Row>
   );
 }
